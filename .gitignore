@@ -22,7 +22,8 @@ classes/
 buildSrc/build
 /spring-*/build
 /spring-*/lib
-/spring-*/WebContent/WEB-INF/lib
+/spring-mvc-demo/WebContent/WEB-INF/lib
+/**/**/**/**/*.jar
 /servers/*
 .metadata/*
 /lib/*
