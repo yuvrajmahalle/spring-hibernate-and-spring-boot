@@ -44,6 +44,11 @@ local.properties
 .settings/
 .loadpath
 
+# Package Files #
+*.jar
+*.war
+*.ear
+
 # Eclipse artifacts, including WTP generated manifests
 .classpath
 .project
