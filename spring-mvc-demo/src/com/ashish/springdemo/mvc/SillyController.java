@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@RequestMapping("/home")
-public class HelloWorldController {
-	
+public class SillyController {
 	@RequestMapping("/showForm")
 	public String showForm() {
 		return "helloworld-form";
@@ -49,5 +47,4 @@ public class HelloWorldController {
 		
 		return "helloworld";
 	}
-	
 }
