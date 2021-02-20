@@ -16,7 +16,7 @@ spring-test/test-output/
 argfile*
 pom.xml
 activemq-data/
-
+/spring-mvc-demo/WebContent/WEB-INF/lib/
 classes/
 /build
 buildSrc/build
