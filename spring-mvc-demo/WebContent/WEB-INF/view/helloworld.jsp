@@ -11,7 +11,7 @@
 Student name : ${param.studentName}
 <br><br>
 
-Content: ${message}
+Display Msg: ${message}
 
 </body>
 </html>
