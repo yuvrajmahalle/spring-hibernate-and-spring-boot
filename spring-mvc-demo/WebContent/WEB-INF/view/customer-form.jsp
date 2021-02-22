@@ -26,6 +26,15 @@
 		<form:errors path="lastName" cssClass="error" />
 		
 		<br><br>
+			Free Passes(<span style="color:red">*</span>): <form:input type="text" path="freePasses"/>
+		<form:errors path="freePasses" cssClass="error" />
+		<br><br>
+		 
+			Postal Code(<span style="color:red">*</span>): <form:input type="text" path="postalCode"/>
+		<form:errors path="postalCode" cssClass="error" />
+		<br><br>
+		
+		
 		
 		<input type="submit" value="Submit" />
 	</form:form>
