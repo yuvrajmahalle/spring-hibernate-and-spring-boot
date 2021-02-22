@@ -33,6 +33,10 @@
 			Postal Code(<span style="color:red">*</span>): <form:input type="text" path="postalCode"/>
 		<form:errors path="postalCode" cssClass="error" />
 		<br><br>
+		 
+			Custom Code(<span style="color:red">*</span>): <form:input type="text" path="customCode"/>
+		<form:errors path="customCode" cssClass="error" />
+		<br><br>
 		
 		
 		

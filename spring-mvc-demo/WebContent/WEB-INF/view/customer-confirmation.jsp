@@ -17,7 +17,9 @@ The customer is Confirmed : ${customer.firstName } ${customer.lastName }
 	<br><br>
 	
 	Postal Code : ${customer.postalCode}
+	<br><br>
 	
+	Custom Code : ${customer.customCode}
 	
 </body>
 </html>
