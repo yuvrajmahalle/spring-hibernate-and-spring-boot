@@ -43,6 +43,8 @@ classes/
 buildSrc/build
 /spring-*/build
 /spring-*/lib
+/hibernate-*/build
+/hibernate-*/lib
 /spring-*/WebContent/WEB-INF/lib
 spring-*/WebContent/WEB-INF/lib
 /servers/*
@@ -82,3 +84,4 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+/.metadata/
