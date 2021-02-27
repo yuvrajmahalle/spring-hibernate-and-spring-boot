@@ -50,6 +50,8 @@ buildSrc/build
 /hb-*/lib
 /spring-*/WebContent/WEB-INF/lib
 spring-*/WebContent/WEB-INF/lib
+/web-*/WebContent/WEB-INF/lib
+web-*/WebContent/WEB-INF/lib
 /servers/*
 .metadata/*
 /lib/*
