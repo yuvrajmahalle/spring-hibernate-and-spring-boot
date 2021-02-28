@@ -50,7 +50,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Override
 	public Customer getCustomer(int theId) {
 		
-		// get the current hibernate session
+		// get the current hibernate sessionb  
 		Session currentSession = sessionFactory.getCurrentSession();
 		
 		// now retrieve/read from database usring primary key
@@ -64,10 +64,10 @@ public class CustomerDAOImpl implements CustomerDAO {
 	@Override
 	public void deleteCustomer(int theId) {
 		Session currentSession = sessionFactory.getCurrentSession();
-		Query<Customer> theQuery = 
-				currentSession.createQuery("delete from  Customer where id=:theCustomerId");
+		Query theQuery = 
+				currentSession.createQuery("delete from Customer where id=:customerId");
 		theQuery.setParameter("customerId", theId);
-				
+		theQuery.executeUpdate();	
 	}
 
 }
