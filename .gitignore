@@ -14,7 +14,6 @@ derby.log
 spring-test/test-output/
 .gradle
 argfile*
-pom.xml
 activemq-data/
 
 
@@ -35,7 +34,6 @@ derby.log
 spring-test/test-output/
 .gradle
 argfile*
-pom.xml
 activemq-data/
 /spring-mvc-demo/WebContent/WEB-INF/lib/
 classes/
@@ -52,6 +50,8 @@ buildSrc/build
 spring-*/WebContent/WEB-INF/lib
 /web-*/WebContent/WEB-INF/lib
 web-*/WebContent/WEB-INF/lib
+my*/target
+/my*/target
 /servers/*
 .metadata/*
 /lib/*
@@ -72,7 +72,6 @@ derby.log
 spring-test/test-output/
 .gradle
 argfile*
-pom.xml
 activemq-data/
 
 # Eclipse artifacts, including WTP generated manifests
@@ -90,3 +89,6 @@ test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
 /.metadata/
+*.iml
+*.idea
+
