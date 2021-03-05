@@ -52,6 +52,8 @@ spring-*/WebContent/WEB-INF/lib
 web-*/WebContent/WEB-INF/lib
 my*/target
 /my*/target
+spring*/target
+/spring*/target
 /servers/*
 .metadata/*
 /lib/*
