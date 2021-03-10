@@ -56,8 +56,8 @@ my*/target
 /*/target
 spring*/target
 /spring*/target
-**/.mvn/wrapper/maven-wrapper.jar
-/**/.mvn/wrapper/maven-wrapper.jar
+0*/.mvn/wrapper/maven-wrapper.jar
+/0*/.mvn/wrapper/maven-wrapper.jar
 /servers/*
 .metadata/*
 /lib/*
